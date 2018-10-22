@@ -78,7 +78,8 @@ What percentage of the distribution was covered by the critical region?
 
 *** =sct
 ```{r}
-test_mc(correct = 3)
+# test_mc(correct = 3)
+ex() %>% check_mc(3)
 ```
 
 
@@ -153,7 +154,8 @@ The *p* value is the probability of...
 
 *** =sct
 ```{r}
-test_mc(correct = 3)
+# test_mc(correct = 3)
+ex() %>% check_mc(3)
 ```
 
 
@@ -197,7 +199,8 @@ abline(v = 31, col = "red")
 
 *** =sct
 ```{r}
-test_mc(correct = 2)
+# test_mc(correct = 2)
+ex() %>% check_mc(2)
 ```
 --- type:VideoExercise lang:r xp:50 skills:1 key:dc0eebd374
 ## Power
@@ -226,7 +229,8 @@ Which of the following will result in the most statistically powerful experiment
 
 *** =sct
 ```{r}
-test_mc(correct = 3)
+# (correct = 3)
+ex() %>% check_mc(3)
 ```
 
 --- type:VideoExercise lang:r xp:50 skills:1 key:ba89b22b24
