@@ -43,7 +43,8 @@ Which of the following do you do when $p < \alpha$ ?
 
 *** =sct
 ```{r}
-test_mc(correct = 3, feedback_msgs = c("No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","Yes. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha"))
+ex() %>% check_mc(3, feedback_msgs = c("No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","Yes. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha"))
+# test_mc(correct = 3, feedback_msgs = c("No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","Yes. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha","No. Since alpha is the threshold for $p$, we reject the null hypothesis when $p <$ alpha"))
 ```
 
 
