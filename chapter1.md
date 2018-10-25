@@ -123,7 +123,12 @@ binom.test(59, 100, 0.5)
 
 *** =sct
 ```{r}
-test_function("binom.test", args = c("x", "n", "p"))
+# test_function("binom.test", args = c("x", "n", "p"))
+ex() %>% check_function("binom.test") %>% {
+  check_arg(., "x") %>% check_equal()
+  check_arg(., "n") %>% check_equal()
+  check_arg(., "p") %>% check_equal()
+}
 ```
 
 
